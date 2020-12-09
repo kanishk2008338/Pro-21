@@ -19,13 +19,13 @@ function draw() {
 bullet.velocityX=0;
  deformation=0.5*weight*speed*speed/22500;
  if (deformation>180){
-   wall.shapeColor("red")
+   wall.shapeColor="red"
  }
  else if(deformation<60){
-  wall.shapeColor("green")
+  wall.shapeColor="green"
  }
  else{
-  wall.shapeColor("yellow")
+  wall.shapeColor="yellow"
  }
 }
   
